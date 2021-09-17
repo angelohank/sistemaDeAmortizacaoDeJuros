@@ -1,0 +1,34 @@
+unit UntMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.Imaging.pngimage;
+
+type
+  TFrmMain = class(TForm)
+    pnlCabecalho: TPanel;
+    pnlCentral: TPanel;
+    pnlRodape: TPanel;
+    pnlBotao: TPanel;
+    btnSimular: TSpeedButton;
+    lblTitulo: TLabel;
+    imgIcone: TImage;
+    lblCopy: TLabel;
+    mmTexto: TMemo;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmMain: TFrmMain;
+
+implementation
+
+{$R *.dfm}
+
+end.
